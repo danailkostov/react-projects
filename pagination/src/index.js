@@ -2,14 +2,11 @@ import { CssBaseline } from "@material-ui/core";
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import { AppProvider } from "./utils/context";
 
 ReactDOM.render(
   <React.StrictMode>
     <CssBaseline />
-    <AppProvider>
-      <App />
-    </AppProvider>
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
