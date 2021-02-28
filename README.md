@@ -1,6 +1,6 @@
 ## General info
 
-These are all my small-medium sized project based on React and Material UI(for styling)
+These are all my small-medium sized projects based on React and Material UI(for styling)
 
 ## Contact
 
