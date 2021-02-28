@@ -16,7 +16,7 @@ const useStyles = makeStyles({
     width: "90vw",
     maxWidth: "730px",
     position: "relative",
-    bottom: "100px",
+    bottom: "200px",
   },
   title: {
     fontSize: 14,
@@ -76,7 +76,7 @@ export default function SimpleCard() {
                 {subtitle}
               </Typography>
             </CardContent>
-            <Typography align="center">
+            <Typography align="center" gutterBottom paragraph>
               <Button
                 size="small"
                 onMouseEnter={() =>
@@ -126,7 +126,12 @@ export default function SimpleCard() {
                 <LockIcon />
               </Button>
             </Typography>
-            <Button size="large" onClick={() => fetchData()}>
+            <Button
+              size="small"
+              onClick={() => fetchData()}
+              variant="contained"
+              color="primary"
+            >
               Random User
             </Button>
           </Box>

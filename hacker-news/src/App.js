@@ -17,7 +17,7 @@ function App() {
         <Grid container component="section" spacing={4}>
           {articles.map((article) => {
             return (
-              <Grid item xs={6}>
+              <Grid item xs={12} sm={6}>
                 <Article {...article} key={article.objectID} />
               </Grid>
             );

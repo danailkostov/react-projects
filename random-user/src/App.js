@@ -11,7 +11,3 @@ function App() {
 }
 
 export default App;
-/*
-Divide whole page in two
-make a card overlay at center
-*/

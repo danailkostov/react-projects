@@ -44,7 +44,7 @@ const SinglePhoto = ({
       />
       <Box className={classes.photoInfo}>
         <Box>
-          <Typography variant="h4" component="h4">
+          <Typography variant="h6" component="h4">
             {name}
           </Typography>
           <Typography variant="body1" component="p">

@@ -5,9 +5,9 @@ import ReactMarkdown from "react-markdown";
 const MarkdownOutput = () => {
   const { input } = useGlobalContext();
   return (
-    <div>
+    <article>
       <ReactMarkdown>{input}</ReactMarkdown>
-    </div>
+    </article>
   );
 };
 

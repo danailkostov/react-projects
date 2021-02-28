@@ -73,7 +73,7 @@ const SetupForm = () => {
             value={amount}
             margin="normal"
             onChange={handleNumber}
-            inputProps={{ min: "1", max: "10" }}
+            inputProps={{ min: "1", max: "50" }}
           />
         </FormControl>
         <FormControl fullWidth margin="normal">

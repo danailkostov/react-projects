@@ -64,7 +64,12 @@ const FollowersList = () => {
   } else {
     return (
       <>
-        <Grid container spacing={3} className={classes.root}>
+        <Grid
+          container
+          spacing={3}
+          className={classes.root}
+          component="section"
+        >
           {followers[page - 1].map((follower) => {
             const { avatar_url, login, html_url } = follower;
             return (
